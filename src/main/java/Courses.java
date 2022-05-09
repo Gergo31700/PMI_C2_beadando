@@ -209,7 +209,7 @@ public class Courses  implements ActionListener {
         }
 
         else {
-
+            messageLabel.setBounds(200,200,200,200);
             messageLabel.setText("User not found");
         }
 

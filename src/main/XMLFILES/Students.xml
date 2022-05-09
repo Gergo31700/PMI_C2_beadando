@@ -1,22 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><UniversityofPecs xmlns="TTK">
-             
-        
-    
-    
-    <Student Jupider_Code_ID="KNL40I">
-        <Full_Name>Varga Gergo</Full_Name>
-        <Password>NHLP%</Password>
-        <Courses>
-            <Course>Calculus 1</Course>
-            <Course>Programming 1</Course>
-            <Course>Data Structures and Algorithms</Course>
-        </Courses>
-    </Student>
-        
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UniversityofPecs xmlns="TTK">
+                                             
+ 
+
     
 
-    <Student Jupider_Code_ID="MAX">
-        <Full_Name>Max Payne</Full_Name>
+    <Student Jupider_Code_ID="KNL40I">
+        <Full_Name>Varga Gergő</Full_Name>
         <Password>password</Password>
         <Courses>
             <Course>Calculus 1</Course>

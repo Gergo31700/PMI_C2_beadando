@@ -72,7 +72,6 @@ frame.setLocation(700,300);
 
 
 
-
 //Read the courses and other details about the student
         try {
             File XmLReader = new File("src\\main\\XMLFILES\\Students.xml");

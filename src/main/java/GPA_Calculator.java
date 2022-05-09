@@ -63,10 +63,10 @@ public class GPA_Calculator implements ActionListener {
 
           try {
 
-
+//
               vegeredmeny= (  (Double.valueOf(Course1Name.getText())*Double.valueOf((Course1.getText())))   +(Double.valueOf(Course2Name.getText())*Double.valueOf((Course2.getText())))  +   (Double.valueOf(Course3Name.getText())*Double.valueOf((Course3.getText()))) ) /(Double.valueOf(Course1Name.getText())+Double.valueOf(Course2Name.getText())+Double.valueOf(Course3Name.getText()));
 
-              if (Double.valueOf(Course1.getText())<=5 && Double.valueOf(Course2.getText())<=5 && Double.valueOf(Course3.getText())<=5) {
+              if (  Double.valueOf(Course1.getText())<=5 && Double.valueOf(Course1.getText())>=1    && Double.valueOf(Course2.getText())<=5 && Double.valueOf(Course2.getText())>=1 && Double.valueOf(Course3.getText())<=5 && Double.valueOf(Course3.getText())>=1) {
                   if (vegeredmeny>5)
                   {
                       vegeredmeny=5.00;
@@ -76,7 +76,7 @@ public class GPA_Calculator implements ActionListener {
               }
               else {
 
-                  messahelabel.setText("One of your grades is greater then 5");
+                  messahelabel.setText("<html>The Grade you entered is greater <br/> then 5  or less then 0</html>");
               }
 
           }

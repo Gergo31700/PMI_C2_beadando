@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<test2 xmlns="test">
-    <Client custid="1202">
-        <firstname>Gersgo</firstname>
-        <lastname>Varga</lastname>
-        <nickname>James</nickname>
-        <balance>12000</balance>
-    </Client>
-</test2>

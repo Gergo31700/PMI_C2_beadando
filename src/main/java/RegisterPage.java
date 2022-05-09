@@ -173,14 +173,25 @@ public class RegisterPage  implements ActionListener {
 
 
         String test = fullname.getText();
+        String test2 = String.valueOf(userPassword.getPassword());
+        String test3 = username.getText();
+
         SpecialCharacthers(test);
 
-        System.out.println(fullname.getText());
+
         if (test.equals("")) {
     test=null;
         }
 
-        if (test != null && tester == true) {
+        if (test2.equals("")) {
+            test2=null;
+        }
+
+        if (test3.equals("")) {
+            test3=null;
+        }
+
+        if (test != null && tester == true && test2!=null&& test3!=null) {
 
             if (e.getSource() == registerbutton) {
                 WriteIntoXMl();
@@ -192,9 +203,9 @@ public class RegisterPage  implements ActionListener {
             }
         }
         else {
-            messageLabel.setBounds(10,20,40,300);
+            messageLabel.setBounds(1,60,500,500);
 
-            messageLabel.setText("Full name"+"contains numbers or special characthers");
+            messageLabel.setText("<html>Full name might"+" contain numbers or special characthers,<br/> Make sure password and id is not empty</html> ");
         }
 
         if (e.getSource()==Switchtologin)
